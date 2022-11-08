@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+body {
+    background-color:blanchedalmond;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color:darkgreen;
+    font-size: 4em;
+    font-family: 'Monserrat';
+}
+
+.segundo-titulo{
+    font-size: 2em;
+    padding-left: 50px;
+    color:white;
+    font-family: 'Monserrat';
+   
+}
+.navegacion{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    background-color: saddlebrown;
+    text-align: center;
+    
+
+}
+.navegacion li{
+    display:inline-block;
+    padding: 20px;
+   
+    }
+.navegacion ul{
+ list-style: none;
+
+
+}
+.navegacion ul li a{
+font-size: 1em;
+    text-decoration: none;
+    color:white;
+    font-family: 'Monserrat';
+    font-weight: bold;
+}
+
+
+
+.figure{
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 40px;
+margin-inline-end: 40px;
+width: 100%;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin:0;
+    padding: 0;
+    border: 0;
+    padding-left: 20px;
+  
+
+}
+.texto{
+     text-align: center;
+    color:darkgreen; 
+    font-size: 2em;
+}
+h3{ padding-left: 10px;
+    font-family: 'Monserrat';
+    font-size: 1em;
+    color:white;
+}
+p{  padding-left: 10px;
+    font-size: 1em;
+    font-family: 'Monserrat';
+    color:white
+    
+    
+}
+.cuadro{
+    background-color:saddlebrown;
+    width: 310px;
+  
+}   
+.imagenes{
+    display: grid;
+    grid-template-columns: 50% 50% 10% ;
+    margin-top: 50px;
+     justify-content: space-around;
+    gap: 20px;
+    width: 800px;
+    padding-left: 10px;
+    
+}
+.cuadro-1{
+    border-radius: 50px;
+}
+.paragrafo{
+    grid-row: 1/ span 2;
+    font-size: 2em;
+    font-family: 'Monserrat';
+    color:darkgreen ;
+    text-align: center;
+    padding-left: 50px;
+   
+  
+} 
+.cuadro-2{
+    background-color:saddlebrown;
+    width: 310px;
+    height: 250px;
+    margin: 0; 
+} 
