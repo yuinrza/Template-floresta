@@ -117,3 +117,24 @@ p{  padding-left: 10px;
     height: 250px;
     margin: 0; 
 } 
+
+.footer{
+    
+    background-color:saddlebrown;
+    color:white; 
+    font-size: 3em;
+
+}
+.footer-2{
+    
+    height: 100px;
+    /*margin-bottom: 15px*/
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Monserrat';
+    padding-top: 25px ;
+
+
+    
+}
